@@ -1,0 +1,45 @@
+@import "./bootstrap.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding-top: 6rem;
+}
+.jumbotron {
+  background-color: #e4e4e4;
+}
+
+.order-last {
+  text-align: center;
+}
+
+.paragraf-about {
+  text-align: left;
+}
+
+.projects {
+  background-color: #e4e4e4;
+  margin-top: -1rem;
+}
+
+footer {
+  background-color: #e4e4e4;
+  margin-top: -1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #444;
+}
+
+@media (min-width: 576px) {
+  .order-last {
+    text-align: left;
+    padding-left: 3rem;
+  }
+  .paragraf-about {
+    text-align: center;
+  }
+}
